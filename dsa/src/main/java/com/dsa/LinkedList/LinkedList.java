@@ -60,7 +60,6 @@ public class LinkedList {
         tail = newNode;
         length++;
     }
-
     public Node removeLast() {
         if (length == 0) return null;
         Node temp = head;
